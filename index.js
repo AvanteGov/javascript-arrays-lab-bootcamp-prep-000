@@ -19,3 +19,8 @@ function destructivelyRemoveLastKitten(){
   kittens.pop()
   return kittens
 }
+
+function destructivelyAppendKitten(name){
+  kittens.push("Garfield")
+  return kittens
+}
