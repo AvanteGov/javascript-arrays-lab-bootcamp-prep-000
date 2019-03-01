@@ -31,6 +31,6 @@ function appendKitten(name){
   return [...kittens, name];
 }
 
-function preppendKitten(name){
+function prependKitten(name){
   return [name, ...kittens];
 }
