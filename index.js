@@ -7,3 +7,8 @@ function destructivelyAppendKitten(name){
 }
 
 kittens.slice(0,kittens.length - 1)
+
+function destructivelyPreppendKitten(name){
+kittens.unshift("Bob")
+return kittens
+}
