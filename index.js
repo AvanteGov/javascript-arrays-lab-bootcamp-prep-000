@@ -12,3 +12,6 @@ function destructivelyPrependKitten(name){
 kittens.unshift("Bob")
 return kittens
 }
+
+kitten.slice(1)
+console.log(kittens)
