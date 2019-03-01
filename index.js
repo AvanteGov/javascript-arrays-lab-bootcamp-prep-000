@@ -20,7 +20,7 @@ function destructivelyRemoveLastKitten(){
   return kittens
 }
 
-kittens.push("Milo")
+kittens.unshift("Milo")
 
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
