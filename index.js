@@ -23,4 +23,5 @@ function destructivelyRemoveLastKitten(){
 function destructivelyAppendKitten(name){
   kittens.push("Garfield")
   return kittens
+  kittens.slice(0,kittens.length - 1)
 }
