@@ -22,5 +22,6 @@ function destructivelyRemoveLastKitten(){
 
 function destructivelyRemoveFirstKitten(){
   kittens.push("Garfied")
-  
+  kittens.shift()
+  return kittens
 }
