@@ -14,4 +14,5 @@ return kittens
 }
 
 kitten.slice(1)
-console.log(kittens)
+
+function 
