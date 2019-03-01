@@ -15,4 +15,6 @@ return kittens
 
 kitten.slice(1)
 
-function 
+function destructivelyRemoveLastKitten(){
+  
+}
